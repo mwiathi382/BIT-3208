@@ -1,0 +1,7 @@
+Week 4: Authentication System
+
+- Created user registration form
+- Stored user data in MySQL database
+- Implemented login system using PHP
+- Used sessions to maintain user login state
+- Added logout functionality

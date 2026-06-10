@@ -1,0 +1,7 @@
+Week 5: CRUD Operations
+
+- Implemented Create operation using PHP form
+- Displayed data from database (Read)
+- Updated user records using SQL UPDATE query
+- Deleted records using SQL DELETE query
+- Practiced full database manipulation using PHP and MySQL
