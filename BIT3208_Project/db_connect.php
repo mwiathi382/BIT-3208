@@ -15,4 +15,4 @@ if ($conn->connect_error) {
 
 echo "Database Connected Successfully";
 
-?>
+?>http://localhost/ecommerce/db_connect.php
