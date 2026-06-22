@@ -1,0 +1,48 @@
+/* Mobile First */
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.profile-info {
+    padding: 10px;
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+
+    .profile-container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .profile-image,
+    .profile-info {
+        flex: 1;
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+
+    body {
+        max-width: 1000px;
+        margin: auto;
+    }
+}
