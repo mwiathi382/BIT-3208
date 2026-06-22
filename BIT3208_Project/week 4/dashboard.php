@@ -1,18 +1,24 @@
 <?php
 session_start();
 
-if(!isset($_SESSION['user'])){
+if(!isset($_SESSION['username'])){
     header("Location: login.php");
     exit();
 }
 ?>
 
-<h1>Welcome <?php echo $_SESSION['user']; ?></h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+
+<h2>Welcome <?php echo $_SESSION['username']; ?></h2>
 
 <p>Login Successful!</p>
 
-<a href="students/add_student.php">Add Student</a><br><br>
-
-<a href="students/view_students.php">View Students</a><br><br>
-
 <a href="logout.php">Logout</a>
+
+</body>
+</html>
